@@ -1,0 +1,24 @@
+{
+  "detection_features": {
+    "chat_history_monitoring": true,
+    "task_schedule_integration": true, 
+    "calendar_monitoring": false,
+    "system_queue_monitoring": true
+  },
+  "detection_frequency": {
+    "base_interval_minutes": 30,
+    "dynamic_adjustment": true,
+    "min_interval_minutes": 15,
+    "max_interval_minutes": 60
+  },
+  "authorization_mode": {
+    "mode": "standard",
+    "trusted_tasks": ["knowledge_maintenance", "system_optimization"],
+    "auto_approve_recurring": true
+  },
+  "performance_optimization": {
+    "resource_saving_mode": false,
+    "log_compression": true,
+    "memory_cleanup_interval_hours": 24
+  }
+}

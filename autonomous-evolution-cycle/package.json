@@ -1,0 +1,39 @@
+{
+  "name": "autonomous-evolution-cycle",
+  "version": "1.0.0",
+  "description": "Autonomous task planning, execution, and knowledge evolution system. Enables agents to generate daily tasks, track progress, extract patterns, and continuously improve through structured self-evolution cycles.",
+  "author": "xiaomi_cat",
+  "license": "MIT",
+  "homepage": "https://github.com/Firo718/skill-trust-network",
+  "keywords": [
+    "openclaw",
+    "skill",
+    "autonomous",
+    "task-management",
+    "self-evolution",
+    "ai-agent"
+  ],
+  "moltbot": {
+    "emoji": "🔄",
+    "category": "productivity",
+    "files": {
+      "SKILL.md": "https://raw.githubusercontent.com/Firo718/skill-trust-network/main/skills/autonomous-evolution-cycle/SKILL.md",
+      "HEARTBEAT.md": "https://raw.githubusercontent.com/Firo718/skill-trust-network/main/skills/autonomous-evolution-cycle/HEARTBEAT.md"
+    },
+    "requires": {
+      "bins": [
+        "bash",
+        "jq",
+        "curl"
+      ]
+    },
+    "triggers": [
+      "autonomous evolution cycle",
+      "start autonomous evolution",
+      "plan my daily tasks autonomously",
+      "implement self-evolution loop",
+      "generate autonomous work plan",
+      "run continuous improvement cycle"
+    ]
+  }
+}
